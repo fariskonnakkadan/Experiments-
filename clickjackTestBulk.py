@@ -2,7 +2,7 @@ import sys
 import re
 
 if len(sys.argv) < 2:
-    print("Error: No text file provided. Please provide a text file with a list of URLs as an argument.\n Usage: clickjackTestBulk.py urls.txt \n urls.txt should contain valid URLs in textfile.")
+    print("Error: No text file provided. Please provide a text file with a list of URLs as an argument.\n Usage: clickjackTestBulk.py urls.txt \n urls.txt should contain valid target URLs.")
     sys.exit()
 
 
